@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/polyfill": "^7.10.1",
+    "@dogstudio/highway": "^2.2.1",
+    "axios": "^0.19.2",
+    "gsap": "^3.3.1",
+    "jquery": "^3.5.1"
+  },
+  "browserslist": [
+    "last 3 Chrome versions"
+  ],
+  "devDependencies": {
+    "sass": "^1.26.7"
+  }
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up Form by Colorlib</title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="scss/style.scss">
+</head>
+<body>
+
+    <div class="main">
+
+        <div class="container">
+            <div class="signup-content">
+                <div class="signup-img">
+                    <img src="images/form-img.png" alt="">
+                    <div class="signup-img-content">
+                        <h2>Register now </h2>
+                        <p>To become a driver !</p>
+                    </div>
+                </div>
+                <div class="signup-form">
+                    <form method="POST" class="register-form" id="register-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <div class="form-input">
+                                    <label for="registration_number" class="required">Registration Number</label>
+                                    <input type="text" name="registration_number" id="registration_number" placeholder="Eg. ABC-123DE"/>
+                                </div>
+                                <div class="form-input">
+                                    <label for="vechicle_manufacturer" class="required">Vechicle Manufacturer</label>
+                                    <input type="text" name="vechicle_manufacturer" id="vechicle_manufacturer" placeholder="Eg. Audi"/>
+                                </div>
+                                <div class="form-input">
+                                    <label for="vechicle_model" class="required">Vechicle Model</label>
+                                    <input type="text" name="vechicle_model" id="vechicle_model" placeholder="Eg. Audi A3 1.4"/>
+                                </div>
+                                <div class="form-input">
+                                    <label for="vechicle_color" class="required">Vechicle Color</label>
+                                    <input type="text" name="vechicle_color" id="vechicle_color" placeholder="Eg. Blue, Red ...etc."/>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-input">
+                                    <label for="number_sits" class="required">Number Sits</label>
+                                    <input type="text" name="number_sits" id="number_sits" placeholder="Eg. 3"/>
+                                </div>
+                                <div class="form-input">
+                                    <label for="insurance_company" class="required">Insurance Company</label>
+                                    <input type="text" name="insurance_company" id="insurance_company"  placeholder="Eg. ABC Insurance"/>
+                                </div>
+                                <div class="form-input">
+                                    <label for="insurance_policy" class="required">Insurance Policy</label>
+                                    <input type="text" name="insurance_policy" id="insurance_policy" placeholder="Eg. 99999999-1"/>
+                                </div>
+                               
+                            </div>
+                        </div>
+                        <div class="form-submit">
+                            <input type="submit" value="Submit" class="submit" id="vechicle_submit" name="submit" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="popup" id="popup">
+        <div class="popup__content">
+                      <div class="popup__img">
+                            <object type="image/svg+xml" data="./images/close.svg">
+                            Your browser does not support SVG
+                            </object>
+                      </div>       
+                      <p class="popup__text">
+                          An Error as occured please make all your inputs are correct or check your network connection
+                      </p>   
+            </div>
+        </div>
+    </div>
+
+
+    <!-- JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/additional-methods.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/vehicle.js"></script>
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>

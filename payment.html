@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up Form by Colorlib</title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="scss/style.scss">
+</head>
+<body>
+
+    <div class="main">
+
+        <div class="container">
+            <div class="signup-content">
+                <div class="signup-img">
+                    <img src="images/form-img.png" alt="">
+                    <div class="signup-img-content">
+                        <h2>Register now </h2>
+                        <p>To become a driver !</p>
+                    </div>
+                </div>
+                <div class="signup-form">
+                    <p>Random Text</p>
+                    <form method="POST" class="register-form" id="register-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <div class="form-input">
+                                    <label for="full_name" class="required">Bank Name</label>
+                                    <input type="text" name="full_name" id="bank_name" />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-input">
+                                    <label for="account_number" class="required">Account Number</label>
+                                    <input type="text" name="account_number" id="account_number" />
+                                </div>
+                                <div class="form-input">
+                                    <label for="account_name" class="required">Account Name</label>
+                                    <input type="text" name="account_name" id="account_name" />
+                                </div>
+                               
+                            </div>
+                        </div>
+                        <div class="form-submit">
+                            <input type="submit" value="Submit" class="submit" id="payment_submit" name="submit" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="popup" id="popup">
+        <div class="popup__content">
+                      <div class="popup__img">
+                            <object type="image/svg+xml" data="./images/close.svg">
+                            Your browser does not support SVG
+                            </object>
+                      </div>       
+                      <p class="popup__text">
+                          An Error as occured please make all your inputs are correct or check your network connection
+                      </p>   
+            </div>
+        </div>
+    </div>
+    <div class="popup" id="popup--success">
+        <div class="popup__content">
+                      <div class="popup__img">
+                            <object type="image/svg+xml" data="./images/success.svg">
+                            Your browser does not support SVG
+                            </object>
+                      </div>       
+                      <p class="popup__text">
+                          Your Registration is successful. You'll receive an email from us shortly
+                      </p>   
+            </div>
+        </div>
+    </div>
+
+    <!-- JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/additional-methods.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/payment.js"></script>
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>
